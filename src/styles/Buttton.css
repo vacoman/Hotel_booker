@@ -1,0 +1,25 @@
+.centerContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.buttonContinue{
+    all: unset;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: #669BD8;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding: 10px 40px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    user-select: none;
+}
+
+.buttonContinue:active{
+    background-color: #0D67CF;
+    transform: scale(0.95);
+}
