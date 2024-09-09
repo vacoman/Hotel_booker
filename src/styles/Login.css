@@ -44,13 +44,14 @@ body{
     height: 40px;
     width: 500px;
     padding-left: 20px;
-    font-size: large;
-    font-weight: bold;
+    /*font-size: medium;
+    font-weight: medium;*/
     
 }
 
 .inputForm::placeholder{
     color: white;
+    opacity: 1;
     font-size: large;
     font-weight: bold;
     text-align: center;
